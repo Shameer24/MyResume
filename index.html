@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r95/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.16/vanta.waves.min.js"></script>
+    <title>My Resume</title>
+  </head>
+  <body>
+    <section id="header">
+      <div class="header">
+        <div class="title">My Resume</div>
+        <div class="navBar">
+          <a href="#home">Home</a>
+          <a href="#Education">Education</a>
+          <a href="">Skills</a>
+          <a href="#Experience">Experience</a>
+        </div>
+      </div>
+    </section>
+    <section id="home">
+      <div id="about" class="about">
+        <div class="aboutContent">
+          <p style="font-size: 30px">Hi, I'm</p>
+          <p style="font-weight: 800; font-size: 60px">Mohamed Shameer</p>
+          <p style="font-size: 30px">Full stack Developer / Web Developer</p>
+          <p style="font-size: 20px;">I enjoy creating full stack applications and web/mobile apps, ones that suit your desires and needs using latest technologies and cleanest design patterns.</p>
+        </div>
+        <div class="image">
+          <img class="img" src="./PIC.jpeg" />
+        </div>
+      </div>
+      <hr style="margin: 30px 30px 0px 30px" />
+    </section>
+    <div id="Education" class="Education">
+      <div class="commonTitle">
+        <h2>Education</h2>
+        <hr
+          style="
+            background-color: black;
+            width: 150px;
+            height: 1px;
+            border-width: 0;
+          "
+        />
+      </div>
+      <div class="container">
+        <div class="items">
+          <div class="left"><i>Master's</i></div>
+          <div class="content">
+            <h6>🏫 New Jersey Institute of Technology</h6>
+            <p>📍 New Jersey, USA</p>
+            <p>🎓 Master's in Computer Science</p>
+            <p>⏳ 2023 - In progress</p>
+            <p>📝 3.83 / 4.0</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="left"><i>Bachelor's</i></div>
+          <div class="content">
+            <h6>🏫 St. Joseph's College of Engineering</h6>
+            <p>📍 Chennai, India</p>
+            <p>🎓 B. E in Computer Science and Engineering</p>
+            <p>⌛️ 2019 - 2023</p>
+            <p>📝 8.86 / 10.0</p>
+          </div>
+        </div>
+      </div>
+      <hr style="margin: 30px 30px 0px 30px" />
+    </div>
+    <div id="Experience">
+      <div class="commonTitle">
+        <h2>Experience</h2>
+        <hr
+          style="
+            background-color: black;
+            width: 200px;
+            height: 1px;
+            border-width: 0;
+          "
+        />
+      </div>
+      <div class="container">
+        <div class="items">
+          <div class="timeline">Jan 2023 - July 2023</div>
+          <div class="marker"></div>
+          <hr class="line" />
+          <div class="content">
+            <h3>Project Intern</h3>
+            <p>VisAI Labs - Chennai, India</p>
+            <ul>
+              <li>
+                Spearheaded the development of the Wi-Fi feature for our
+                product, which operates on Raspberry Pi using ReactJS and
+                wpa-supplicant to manage diverse connection methods, resulting
+                in 100% customer satisfaction.
+              </li>
+              <li>
+                Handled all authentication methods with EAP and inner
+                authentication protocols, ensuring 99% secure network access.
+              </li>
+              <li>
+                Key in migrating product codebase from JavaScript to Typescript,
+                yielding a 30% code quality improvement,strengthened type
+                safety, and streamlined development workflow.
+              </li>
+              <li>
+                Successfully resolved 80% of warnings and issues found by
+                SonarQube, enhancing code quality and maintainability by 60% and
+                reducing potential future development time by 50% .
+              </li>
+              <li>
+                Enhanced user engagement by 75% with a responsive ReactJS
+                progress bar using requestAnimationFrame, improving the app’s UI
+                for resource-intensive tasks.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="items">
+          <div class="timeline">Jan 2023 - July 2023</div>
+          <div class="marker"></div>
+          <hr class="line" />
+          <div class="content">
+            <h3>Android App Developer intern</h3>
+            <p>Tequip Software Solutions</p>
+            <ul>
+              <li>
+                Developed a cryptocurrency tracker android application, enabling
+                real-time price updates for 2000+ cryptocurrencies,
+                revolutionizing investors’ decision-making processes.
+              </li>
+              <li>
+                Designed user-configured price alerts for cryptocurrencies,
+                leading to a 40% boost in user engagement. Alerts notify users
+                when prices meet their thresholds, empowering informed
+                decisions.
+              </li>
+              <li>
+                Successfully conceptualized, designed, and developed a
+                captivating wallpaper mobile app, harnessing the vast Pexels API
+                with 3.2 million+ free photos and videos, leading to notably
+                increased user satisfaction and engagement.
+              </li>
+              <li>
+                Debugged and optimized the app, leading to a 20% increase in app
+                stability and reliability and enabled the company to
+                successfully release the app on the Google Play Store, reaching
+                a wide audience of enthusiasts.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr style="margin: 30px 30px 0px 30px" />
+    </div>
+    <div id="skills">
+      <div class="commonTitle">
+        <h2>Skills</h2>
+        <hr
+          style="
+            background-color: black;
+            width: 100px;
+            height: 1px;
+            border-width: 0;
+          "
+        />
+      </div>
+      <div class="headings">
+        <div class="heading">
+          Framework/Libraries/Client side Tools
+          <div class="content">
+            <p>ReactJS</p>
+            <p>NodeJS</p>
+            <p>Express.Js</p>
+            <p>Next.js</p>
+            <p>Electron.js</p>
+            <p>CSS3</p>
+            <p>HTML5</p>
+            <p>tailwindCSS</p>
+          </div>
+        </div>
+        <div class="heading">
+          Programming
+          <div class="content">
+            <p>JavaScript</p>
+            <p>Typescript</p>
+            <p>Python</p>
+            <p>Java</p>
+            <p>C++</p>
+          </div>
+        </div>
+        <div class="heading">
+          Databases
+          <div class="content">
+            <p>SQL</p>
+            <p>MYSQL</p>
+            <p>MongoDB</p>
+            <p>PostgresSQL</p>
+          </div>
+        </div>
+        <div class="heading">
+          Version Control Tools
+          <div class="content">
+            <p>Git</p>
+            <p>Github</p>
+            <p>Bit Bucket</p>
+            <p>PostgresSQL</p>
+          </div>
+        </div>
+        <div class="heading">
+          IDEs and Editors
+          <div class="content">
+            <p>Visual Studio Code</p>
+            <p>Android StudioQL</p>
+            <p>PyCharm</p>
+            <p>Eclipse</p>
+          </div>
+        </div>
+        <div class="heading">
+          Tools and Debugging
+          <div class="content">
+            <p>Docker</p>
+            <p>Jira</p>
+            <p>SonarQube</p>
+            <p>Postman</p>
+            <p>MS Excel</p>
+          </div>
+        </div>
+        <div class="heading">
+          Operating Systems
+          <div class="content">
+            <p>MacOS</p>
+            <p>Windows</p>
+            <p>Linux</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+        <div class="commonTitle">
+            <h2>Contact Me</h2>
+            <hr style= "background-color: black; width: 150px; height: 1px; border-width: 0;" />
+        </div>
+        <div class="details">
+            <div class="detail">
+                <p><b>Get in touch</b></p>
+                <p>me425@njit.edu</p>
+            </div>
+            <div class="detail">
+                <p><b>Location</b></p>
+                <p>Harrison, NJ</p>
+            </div>
+            <div class="detail">
+                <p><b>Contact Directly</b></p>
+                <p>+1 (862) 231-1651</p>
+            </div>
+            <div class="detail">
+                <a>Github</a>
+                <a>LinkedIn</a>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align: center; background-color: gray;">
+        <small>
+          Copyright © 2023 Football History Archives. All Rights Reserved.
+        </small>
+      </footer>
+  </body>
+  <!-- <script>
+    const effect = VANTA.WAVES({
+      el: "#home",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 400.0,
+      minWidth: 400.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      waveHeight: 20.0,
+      color: 0x50409a,
+      waveSpeed: 0.5,
+    });
+    //horizon scrollbar fix... sort of.
+    window.onload = function () {
+      window.dispatchEvent(new Event("resize"));
+    };
+  </script> -->
+</html>
