@@ -262,9 +262,8 @@ p {
 .heading .content p {
     margin: 10px;
     padding: 10px;
-    background-color: rgba(255, 0, 58, 0.61);
-    
-    
+    background-color: rgba(173, 246, 255, 0.61);
+    border-radius: 10%;
   }
   
 .heading {
